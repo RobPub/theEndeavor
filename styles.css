@@ -1,8 +1,5 @@
 <style>
 
-  head {
-  }
-
   h1 {
     color: #13505B;
     text-align: center;
@@ -47,10 +44,6 @@
 
   .navbar a {
     color: #0E3B43;
-  }
-
-  .pathway {
-
   }
 
   .pathway a {
@@ -143,7 +136,7 @@
     font-size: 15px;
   }
 
-  .tile-title a{
+  .tile-title a {
     color: #000000;
   }
 
