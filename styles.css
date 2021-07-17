@@ -204,8 +204,13 @@
     height: 100px;
     width: 100px;
   }
-  .author {
+  .author-img {
     display: inline-block;
+  }
+  .author-box {
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-right: 195px;
   }
 
   .tile6 {
