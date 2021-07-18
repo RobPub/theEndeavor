@@ -22,8 +22,9 @@
     margin-left: 20px;
   }
 
-  a {
+  a:hover, a:visited, a:link, a:active {
     text-decoration: none;
+    color: #0E3B43;
   }
 
   a:hover {
@@ -40,14 +41,17 @@
       text-align: center;
       Padding: 2px;
       margin-bottom: 15px;
+      margin-right: 20px;
+      margin-left: 20px;
   }
 
   .navbar a {
     color: #0E3B43;
   }
 
-  .pathway a {
+  .pathway {
     color: #0E3B43;
+    margin-left: 20px;
   }
 
   .top-container {
@@ -324,9 +328,9 @@
     display: inline-block;
     left: 0;
     bottom: 0;
-    width: 1465px;
     background-color: #93827F;
     color: white;
+    width: 100%;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
     margin-right: 20px;
