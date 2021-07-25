@@ -352,8 +352,104 @@
     margin-top: 30px;
   }
 
+  .editors-choice-tile {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    padding: 5px;
+    margin-top: 30px;
+  }
+
   .recently-published {
     text-align: center;
+    text-decoration: underline;
+  }
+
+  .most-popular-by-author {
+    text-align: center;
+    text-decoration: underline;
+  }
+
+  .editors-choice {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+
+  .article-tile1 {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+  .article-tile2 {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+  .article-tile3 {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    display: inline-block;
+  }
+
+  .article-tile4 {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+  .article-tile5 {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    display: inline-block;
+  }
+
+  .article-tile6 {
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+    padding: 5px;
+    width: 336px;
+    height: 280px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    display: inline-block;
   }
 
   .footer {
