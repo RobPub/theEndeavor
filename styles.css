@@ -217,7 +217,7 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: auto;
+    width: 1050px;
     padding: 30px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
   }
@@ -245,7 +245,6 @@
     text-align: center;
   }
   /* End Philosophy Page */
-
   .align1 {
     background-color: #30B070;
     width: 350px;
@@ -332,6 +331,7 @@
     text-decoration: underline;
     margin-top: 30px;
   }
+
   .align2 {
     background-color: #30B070;
     width: 350px;
@@ -378,9 +378,8 @@
     text-decoration: underline;
   }
 
-  .editors-choice {
+  .editors-choice-by-author {
     text-align: center;
-    font-size: 14px;
     text-decoration: underline;
   }
 
