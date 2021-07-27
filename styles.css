@@ -4,6 +4,7 @@
 
   }
 
+  /* All */
   h1 {
     color: #13505B;
     text-align: center;
@@ -53,11 +54,30 @@
     color: #0E3B43;
   }
 
+  ul#navhoriz li {
+    display: inline;
+    list-style: none;
+  }
+
   .pathway {
     color: #0E3B43;
     margin-left: 20px;
   }
 
+  .white-box {
+    background-color: #FFFFFF;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 1050px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
+  }
+  /* End All */
+
+  /* Article Home Page */
   .article-home-img {
     height: 90px;
     width: auto;
@@ -67,42 +87,6 @@
     margin-bottom: 5px;
     margin-left: 10px;
     margin-top: 5px;
-  }
-
-  .article-title {
-    text-align: center;
-    margin-bottom: 20px;
-    text-decoration: underline;
-  }
-
-  .article-body {
-    margin-top: 45px;
-    margin-left: 25px;
-    line-height: 20px;
-    top: 20px;
-  }
-
-  .author-link a {
-    text-align: left;
-    color: #000000;
-  }
-
-  .most-recent {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 17px;
-  }
-
-  .editors-choice {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 17px;
-  }
-
-  .most-popular {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 17px;
   }
 
   .tile-title {
@@ -184,44 +168,63 @@
     display: inline-block;
   }
 
+  .article-title {
+    text-align: center;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+
+  .article-body {
+    margin-top: 45px;
+    margin-left: 25px;
+    line-height: 20px;
+    top: 20px;
+  }
+
+  .author-link a {
+    text-align: left;
+    color: #000000;
+  }
+
+  .most-recent {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+
+  .editors-choice {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+
+  .most-popular {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+/* End Article Home Page */
+
+/* Author Home Page */
   .headshot {
     border-radius: 50%;
     height: 100px;
     width: 100px;
   }
+
   .author-img {
     display: inline-block;
     padding: 25px;
   }
+/* End Article Home Page */
+
   .author-box {
     margin-left: 30px;
     margin-bottom: 50px;
     margin-right: 195px;
   }
-  .author-description {
-    line-height: 20px;
-  }
 
-  .spongebob-writer {
-    height: 300px;
-    width: auto;
-    margin-left: 20px;
-    margin-right: 15px;
-    float: left;
-  }
-
-  .white-box {
-    background-color: #FFFFFF;
-    display: inline-block;
-    vertical-align: top;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 1050px;
-    padding: 30px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-  }
-
+/* Article Page */
   .anon-icon {
     height: 50px;
     width: 50px;
@@ -238,13 +241,7 @@
     padding: 15px;
     float: left;
   }
-  /* Philosophy Page */
-  .phil {
-    font-size: 14pt;
-    line-height: 3;
-    text-align: center;
-  }
-  /* End Philosophy Page */
+
   .align1 {
     background-color: #30B070;
     width: 350px;
@@ -252,7 +249,7 @@
     float: right;
   }
 
-  .adbox1 {
+  .adbox {
     background-color: #9E90A2;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
     color: #000000;
@@ -261,31 +258,10 @@
     height: 280px;
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
-  .adbox2 {
-    background-color: #9E90A2;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    color: #000000;
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .adbox3 {
-    background-color: #9E90A2;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    color: #000000;
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    text-align: center;
-    margin-top: 30px;
-  }
-
-  .recommended1 {
+  .recommended {
     background-color: #0C7489;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
     color: #FFFFFF;
@@ -295,41 +271,19 @@
     text-align: center;
     text-decoration: underline;
   }
+  /* End Article Page */
 
-  .recommended2 {
-    background-color: #0C7489;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    color: #FFFFFF;
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
+  /* Author Page */
+  .author-description {
+    line-height: 20px;
   }
 
-  .recommended3 {
-    background-color: #0C7489;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    color: #FFFFFF;
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
-  }
-
-  .recommended4 {
-    background-color: #0C7489;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    color: #FFFFFF;
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 30px;
+  .spongebob-writer {
+    height: 300px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 15px;
+    float: left;
   }
 
   .align2 {
@@ -339,36 +293,17 @@
     float: right;
   }
 
-  .recently-published-tile {
+  .side-tile {
     background-color: #FFFFFF;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
     padding: 5px;
     width: 336px;
     height: 280px;
     padding: 5px;
+    margin-bottom: 30px;
   }
 
-  .most-popular-tile {
-    background-color: #FFFFFF;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    padding: 5px;
-    margin-top: 30px;
-  }
-
-  .editors-choice-tile {
-    background-color: #FFFFFF;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
-    padding: 5px;
-    width: 336px;
-    height: 280px;
-    padding: 5px;
-    margin-top: 30px;
-  }
-
-  .recently-published {
+  .recently-published-by-author {
     text-align: center;
     text-decoration: underline;
   }
@@ -456,7 +391,17 @@
     margin-right: 20px;
     display: inline-block;
   }
+  /* End Author Page */
 
+  /* Philosophy Page */
+  .phil {
+    font-size: 14pt;
+    line-height: 3;
+    text-align: center;
+  }
+  /* End Philosophy Page */
+
+  /* Footer */
   .footer {
     display: inline-block;
     left: 0;
@@ -474,8 +419,5 @@
     padding: 5px 0px 5px 30px;
     color: #FFFFFF;
   }
+/* End Footer */
 
-  ul#navhoriz li {
-    display: inline;
-    list-style: none;
-  }
