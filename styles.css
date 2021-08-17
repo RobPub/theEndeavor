@@ -84,6 +84,49 @@
   }
   /* End All */
 
+  /* Home Page*/
+  .horizontal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .vertical {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  .square1 {
+    background-color: white;
+    width: 210px;
+    height: 310px;
+    margin-left: 20px;
+    padding: 20px;
+  }
+
+  .square2 {
+    background-color: white;
+    width: 420px;
+    height: 310px;
+  }
+
+  .square3 {
+    background-color: white;
+    width: 210px;
+    height: 155px;
+    border-style: solid;
+    border-color: black;
+  }
+
+  .square4 {
+    background-color: white;
+    width: 210px;
+    height: 155px;
+    border-style: solid;
+    border-color: black;
+  }
+  /* End Home Page*/
+
   /* Article Home Page */
   .article-home-img {
     height: 90px;
