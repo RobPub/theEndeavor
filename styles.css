@@ -93,37 +93,110 @@
   .vertical {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+  }
+
+  .white-box2 {
+    background-color: #FFFFFF;
+    vertical-align: top;
+    width: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 10px 20px rgba(0, 0, 0, 0.19);
   }
 
   .square1 {
     background-color: white;
-    width: 210px;
-    height: 310px;
-    margin-left: 20px;
+    width: 265px;
+    height: 340px;
     padding: 20px;
+    flex-grow: 1;
   }
 
   .square2 {
     background-color: white;
-    width: 420px;
-    height: 310px;
+    width: 935px;
+    height: 340px;
+    padding: 20px;
+    flex-grow: 1;
   }
 
   .square3 {
     background-color: white;
-    width: 210px;
-    height: 155px;
-    border-style: solid;
-    border-color: black;
+    width: 250px;
+    height: 145px;
+    padding: 20px;
+    flex-grow: 1;
   }
 
   .square4 {
     background-color: white;
-    width: 210px;
-    height: 155px;
-    border-style: solid;
-    border-color: black;
+    width: 250px;
+    height: 145px;
+    padding: 20px;
+    flex-grow: 1;
+  }
+
+  .square5 {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .square6 {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .square7 {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+  }
+
+  .square8 {
+    background-color: white;
+    width: 265px;
+    height: 285px;
+    padding: 20px;
+  }
+
+  .square9 {
+    background-color: white;
+    width: 705px;
+    height: 285px;
+    padding: 20px;
+  }
+
+  .square10 {
+    background-color: white;
+    width: 1015px;
+    height: 130px;
+    padding: 20px;
+  }
+
+  .square11 {
+    background-color: white;
+    width: 405px;
+    height: 125px;
+    padding: 20px;
+  }
+
+  .square12 {
+    background-color: white;
+    width: 405px;
+    height: 125px;
+    padding: 20px;
+  }
+
+  .square13 {
+    background-color: white;
+    width: 405px;
+    height: 125px;
+    padding: 20px;
   }
   /* End Home Page*/
 
