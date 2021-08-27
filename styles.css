@@ -71,6 +71,37 @@
     margin-left: 20px;
   }
 
+  .dropdownbtn {
+    background-color: #27905C;
+    color: #0E3B43;
+    padding: 15px;
+    border: none;
+    font-family: Merriweather;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2B9C64;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    padding: 7px;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
   .white-box {
     background-color: #FFFFFF;
     display: inline-block;
