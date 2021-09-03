@@ -578,6 +578,12 @@
   }
   /* End Philosophy Page */
 
+  /*Input Article Page*/
+  .allTextAreas {
+    margin-left: 20px;
+  }
+  /*End Input Article Page*/
+
   /* Footer */
   .footer {
     display: inline-block;
